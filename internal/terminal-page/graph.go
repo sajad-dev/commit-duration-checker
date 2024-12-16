@@ -29,11 +29,7 @@ func (g *TerminalWriter) Add(edge map[string]*Node, parent *Node, value *Value, 
 		}
 
 	}
-	// for _,v := range g.NodeList{
-	// 	fmt.Println("")
-	// 	fmt.Println("")
-	// 	fmt.Println("dfhhhhhhhhhhhhhhhhhhhhhhh",v.Value,v.Edge,edge)
-	// }
+
 	g.NodeList = append(g.NodeList, newNode)
 
 
