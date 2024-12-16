@@ -11,7 +11,7 @@ To run this project, you need the following: (برای اجرای این پرو�
 
 - Go 1.19 or higher  
 - Git installed on your system  
-- Supported platforms: Linux, macOS, Windows  
+- Supported platforms: Linux
 
 ### 📦 Install Required Packages | نصب پکیج‌های مورد نیاز
 
