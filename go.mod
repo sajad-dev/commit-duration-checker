@@ -12,8 +12,6 @@ require (
 )
 
 require (
-	github.com/mattn/go-runewidth v0.0.16 // indirect
-	github.com/rivo/uniseg v0.4.7 // indirect
+	github.com/mattn/go-runewidth v0.0.9 // indirect
 	github.com/vcaesar/keycode v0.10.1 // indirect
-	github.com/vcaesar/tt v0.20.1 // indirect
 )

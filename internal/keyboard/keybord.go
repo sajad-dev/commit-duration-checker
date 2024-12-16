@@ -1,4 +1,4 @@
-package keybord
+package keyboard
 
 import (
 

@@ -6,7 +6,7 @@ import (
 	"syscall"
 
 	"github.com/sajad-dev/commit-duration-checker/internal/command"
-	"github.com/sajad-dev/commit-duration-checker/internal/keybord"
+	"github.com/sajad-dev/commit-duration-checker/internal/keyboard"
 	terminalpanel "github.com/sajad-dev/commit-duration-checker/internal/terminal-page"
 	timeactivity "github.com/sajad-dev/commit-duration-checker/internal/time-activity"
 )
@@ -24,10 +24,10 @@ func main() {
 	keypress := make(chan int, 10)
 	go terminalpanel.Handel(keypress)
 
-	go keybord.Keyboard(keypress)
+	go keyboard.Keyboard(keypress)
 
 	for {
-		if keybord.CheckEndKey(keypress) {
+		if keyboard.CheckEndKey(keypress) {
 
 			return
 		}
