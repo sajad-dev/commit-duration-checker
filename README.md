@@ -30,13 +30,13 @@ Follow these steps to set up the project: (برای راه‌اندازی پرو
 Clone the project: (کلون کردن پروژه)
 
 ```bash
-git clone https://github.com/sajad-dev/check-status.git
+git clone https://github.com/sajad-dev/commit-duration-checker.git
 ```
 Navigate to the project directory: (انتقال به دایرکتوری پروژه)
 
 
 ```bash
-cd check-status
+cd commit-duration-checker
 ```
 
 Install dependencies: (نصب وابستگی‌ها)
