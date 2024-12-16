@@ -1,16 +1,19 @@
 module github.com/sajad-dev/commit-duration-checker
 
-go 1.19
+go 1.22.0
+
+toolchain go1.22.10
 
 require (
 	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646
 	github.com/nsf/termbox-go v1.1.1
-	github.com/robotn/gohook v0.40.0
-	golang.org/x/exp v0.0.0-20240909161429-701f63a606c0
+	github.com/robotn/gohook v0.41.0
+	golang.org/x/exp v0.0.0-20241215155358-4a5509556b9e
 )
 
 require (
-	github.com/mattn/go-runewidth v0.0.9 // indirect
+	github.com/mattn/go-runewidth v0.0.16 // indirect
+	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/vcaesar/keycode v0.10.1 // indirect
 	github.com/vcaesar/tt v0.20.1 // indirect
 )
