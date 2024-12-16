@@ -18,11 +18,6 @@ type Task struct {
 	Function   func(*TerminalWriter, any)
 }
 
-type HomeInterface interface {
-	TaskTab()
-	AddTask()
-}
-
 func (tr *TerminalWriter) FirstPage() {
 	tr.ImageWriter(tr.Width-46, tr.Height-8, 45, 5, "logo.jpeg")
 	y := 4
@@ -95,9 +90,10 @@ func (home *TerminalWriter) AddTask() {
 		tasks[index].Function = RunInfoTask
 		tasks[index].Node = node
 	}
-
-	home.NodeList[leng].Edge["top"] = home.NodeList[len(home.NodeList)-1]
-	home.NodeList[len(home.NodeList)-1].Edge["botton"] = home.NodeList[leng]
+	if len(tasks) != 0 {
+		home.NodeList[leng].Edge["top"] = home.NodeList[len(home.NodeList)-1]
+		home.NodeList[len(home.NodeList)-1].Edge["botton"] = home.NodeList[leng]
+	}
 
 }
 
@@ -190,7 +186,6 @@ func AddToTask(terminal *TerminalWriter) {
 	terminal.Writer = false
 	tasks = append(tasks, task)
 	addFile()
-
 
 }
 

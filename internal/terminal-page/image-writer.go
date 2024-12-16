@@ -3,8 +3,7 @@ package terminalpage
 import (
 	"github.com/nsf/termbox-go"
 	imagetodot "github.com/sajad-dev/commit-duration-checker/pkg/imageto-dot"
-	// "github.com/nsf/termbox-go"
-	// imagetodot "github.com/sajad-dev/commit-duration-checker/pkg/imageto-dot"
+
 )
 
 func (t *TerminalWriter) ImageWriter(w int, h int, x_start int, y_start int,imgname string) {

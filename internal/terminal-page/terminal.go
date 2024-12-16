@@ -125,7 +125,6 @@ func (terminal *TerminalWriter) write() {
 
 	terminal.paginate()
 
-	// terminal.footer()
 
 	termbox.Flush()
 
