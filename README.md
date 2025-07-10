@@ -1,81 +1,83 @@
 # Commit Duration Checker
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Go-1.19+-00ADD8.svg?style=flat&logo=go" alt="Go Version">
+  <img src="https://img.shields.io/badge/Git-Required-F05032.svg?style=flat&logo=git" alt="Git Required">
+  <img src="https://img.shields.io/badge/Platform-Linux-FCC624.svg?style=flat&logo=linux" alt="Platform">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat" alt="License">
+  <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg?style=flat" alt="Version">
+  <img src="https://img.shields.io/badge/Status-Stable-brightgreen.svg?style=flat" alt="Status">
+</p>
+
 This project is designed to check the duration of each commit in a Git repository. It helps you track how long each commit took to be completed, providing valuable insights into your project's development process.
 
-این پروژه برای چک کردن مدت زمان هر کامیت در یک مخزن گیت هاب طراحی شده است. به شما کمک می‌کند تا مدت زمانی که هر کامیت طول کشیده است را بررسی کنید و دیدگاه‌های ارزشمندی در مورد روند توسعه پروژه‌تان بدست آورید.
+## 📋 Requirements
 
-
-## 📋 Requirements | پیش‌نیازها
-
-To run this project, you need the following: (برای اجرای این پروژه، به موارد زیر نیاز دارید)
+To run this project, you need the following:
 
 - Go 1.19 or higher  
 - Git installed on your system  
 - Supported platforms: Linux
 
-### 📦 Install Required Packages | نصب پکیج‌های مورد نیاز
+### 📦 Install Required Packages
 
-Before running the project, you need to install the required Go packages.  
+Before running the project, you need to install the required Go packages.
 
-قبل از اجرای پروژه، باید پکیج‌های مورد نیاز Go را نصب کنید.
-
-Run the following command to install the dependencies:  (برای نصب وابستگی‌ها، دستور زیر را اجرا کنید)
+Run the following command to install the dependencies:
 
 ```bash
 go mod tidy
 ```
-## 🚀 Installation and Setup | نصب و راه‌اندازی
-Follow these steps to set up the project: (برای راه‌اندازی پروژه مراحل زیر را دنبال کنید)
 
-Clone the project: (کلون کردن پروژه)
+## 🚀 Installation and Setup
 
+Follow these steps to set up the project:
+
+**Clone the project:**
 ```bash
 git clone https://github.com/sajad-dev/commit-duration-checker.git
 ```
-Navigate to the project directory: (انتقال به دایرکتوری پروژه)
 
-
+**Navigate to the project directory:**
 ```bash
 cd commit-duration-checker
 ```
 
-Install dependencies: (نصب وابستگی‌ها)
-
+**Install dependencies:**
 ```bash
-go mod tidy‍‍
+go mod tidy
 ```
 
-Run the project: (اجرای پروژه)
+**Run the project:**
 ```bash
 go run main.go
 ```
 
-## 📝 Available Commands | دستورات موجود
-#### Here are the available commands for this project :
-دستورات موجود برای این پروژه:
+## 📝 Available Commands
 
+Here are the available commands for this project:
 
-Run Git commands to manage your repository: (
-اجرای دستورات Git برای مدیریت مخزن خود
-)
+**Run Git commands to manage your repository:**
 ```bash
 duration git
- ```
-Clear logs and activity : (پاک کردن لاگ‌ها و فعالیت‌ها)
+```
+
+**Clear logs and activity:**
 ```bash
 duration clear 
 ```
 
-Display the help message with available commands : (نمایش پیام راهنما با دستورات موجود)
+**Display the help message with available commands:**
 ```bash
 duration help
- ```
+```
 
-Run without displaying the panel : (اجرا بدون نمایش پنل)
+**Run without displaying the panel:**
 ```bash
-duration --no-pandel # Or -np
- ```
+duration --no-panel # Or -np
+```
 
-## 🧑‍💻  Author | نویسنده
+## 🧑‍💻 Author
 
-Mohammad Sajad Poorajam (محمد سجاد پورعجم) 👨‍💻🚀
+**Mohammad Sajad Poorajam** 👨‍💻🚀
+
